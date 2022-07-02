@@ -1,0 +1,83 @@
+.form-container {
+    width: 500px;
+    height: 600px;
+    background: #FFFFFF;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.form-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.input-group input {
+    width: 415px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #dddd;
+    font-size: 20px;
+
+}
+
+.form-submit {
+    width: 423px;
+    height: 55px;
+    background: rgba(255, 153, 0, 0.3);
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+.form-link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+.style-or {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.style-or-border {
+    width: 90%;
+    margin-top: 5px;
+}
+
+.margin-for-or {
+    margin: 0 10px;
+}
+
+.google-btn {
+    width: 415px;
+    height: 55px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #dddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-icon {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
